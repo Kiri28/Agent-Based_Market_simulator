@@ -105,20 +105,17 @@ Market makers represent market participants who attempt to earn the spread by su
 
 -----------
 ### Liquidity consumer logic
-TBA
+The following agents describe large brokers, whose main goal includes buying or selling a ceratin amount of an asset during the trading day.
 
 -----------
 ### Momentum trader logic
-TBA
+These traders believe that price changes have an inertion: their strategy involves taking a long position when prices have been rising recently, and a short position when they have been falling.
 
 -----------
 ### Mean reversion trader logic
-TBA
+These agents are usually reffered to as market makers. They attempt to generate profit by taking long positions when the market prices is below than moving average price, and short positions when it is above.
 
 -----------
 ### Noise trader logic
-TBA
+These type of agents is necessary to be present in the model in order to describe a large number of small traders who do not have a specific strategy, which can cause unpredictable market fluctuations.
 
------------
-### Validation and checking results
-TBA
